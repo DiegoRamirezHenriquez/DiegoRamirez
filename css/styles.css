@@ -1,0 +1,184 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'ABeeZee', sans-serif;
+    color: #EEEEEE;
+}
+body{
+   overflow-x: hidden; 
+}
+/* INICIO */
+.contenedor-inicio{
+    background-color: #393E46;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+    
+}
+i{
+    color:#eeeeee;
+    opacity: .2;
+}
+.linkedin:hover{
+    color: #00ADB5;
+    opacity: 1;
+}
+.github:hover{
+    color: #eeeeee;
+    opacity: 1;
+}
+
+/* HEADER */
+header{
+    text-align: center;
+    padding-left: 5%;
+    padding-right: 5%;
+    background-color:#222831; 
+    color: #EEEEEE;
+    position:sticky;
+    top: 0;
+}
+a{
+    text-decoration: none;
+    color: #EEEEEE;
+
+}
+
+ul{
+    padding-top: 1%;
+    padding-bottom: 1%;
+    opacity: 1;
+   align-items: center;
+}
+.items{
+    padding-top: .125rem;
+    background-size: 0% 2px;
+    background-image: linear-gradient(currentColor, currentColor);
+    background-position: 0% 100%;
+    background-repeat: no-repeat;
+    transition: background-size .3s;
+}
+.items:hover{
+    background-size: 100% 2px;
+}
+.contenedor{
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+
+
+/* SOBRE MI */
+.sobreMi{
+    padding: 15%;
+    padding-left: 25%;
+    padding-right: 25%;
+    background-color: #222831;
+    text-align: center;
+    
+}
+.contenedor-sobreMi{
+    padding: 2%;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: .75rem;
+    display: flex;
+}
+.contenedor-sobreMi img{
+    width: 45%;
+}
+.parrafos-sobreMi{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.parrafos-sobreMi p{
+    padding: 2%;
+}
+
+
+
+/* PROYECTOS */
+.proyectos{
+    background-color: #393E46;
+    width: 100vw;
+    height: 100vh;
+    text-align: center;
+    padding-top: 10%;
+}
+.contenedor-proyectos{
+    display: flex;
+    justify-content: space-around;
+    padding: 33px 33px;
+}
+
+.proyectos h2{
+    padding: 2%;
+}
+.proyecto h3{
+    width: 25rem;
+}
+.proyecto a img{
+    border-radius: 12px;
+    width: 18.75rem;
+    transition: width .5s;
+}
+.proyecto a img:hover{
+    width: 25rem;
+    
+}
+
+
+
+/* CONOCIMIENTOS */
+
+.conocimientos{
+    padding-top: 10%;
+    background-color: #222831;
+    width: 100vw;
+    height: 100vh;
+    text-align: center;
+    align-items: center;
+}
+.conocimientos h2{
+    padding: 5%;
+}
+.contenedor-conocimientos{
+    display: flex;
+    justify-content: space-around;
+    padding-left: 15%;
+    padding-right: 15%;
+    align-items: center;
+   
+}
+.conocimiento{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 12px;
+}
+.conocimiento h3{
+    padding: 5%;
+}
+.conocimiento img{
+    width: 65%;
+}
+
+/* CONTACTO */
+.contacto{
+    background-color: #393E46;
+    width: 100vw;
+    height: 100vh;
+
+    text-align: center;
+    align-items: center;
+
+}
