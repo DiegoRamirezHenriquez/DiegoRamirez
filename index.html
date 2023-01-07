@@ -10,7 +10,6 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=ABeeZee&display=swap" rel="stylesheet">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-    <script defer src="js/app.js"></script>
 </head>
 <body>
     
@@ -25,8 +24,8 @@
         <nav>
             <ul class="contenedor">
                 <li class="items"><a href="#sobreMi">Sobre mi</a></li>
-                <li class="items"><a href="#proyectos">Proyectos</a></li>
                 <li class="items"><a href="#conocimientos">Conocimientos</a></li>
+                <li class="items"><a href="#proyectos">Proyectos</a></li>
                 <li class="items"><a href="#contacto">Contacto</a></li>
             </ul>
         </nav>
@@ -42,6 +41,28 @@
                     <p>Decidí consolidar mis conocimientos con varios proyectos en los cuales constantemente estoy trabajando.</p>
                 </div>
                 <img src="images/sobremi.png" alt="Persona mirando celular">
+            </div>
+        </article>
+        <article class="conocimientos" id="conocimientos">
+            <h2>Conocimientos</h2>
+            <div class="contenedor-conocimientos">
+                <div class="conocimiento">
+                    <h3>HTMl</h3>
+                    <img src="images/conocimiento01.png" alt="iconoHTML">
+                </div>
+                <div class="conocimiento">
+                    <h3>CSS</h3>
+                    <img src="images/conocimiento02.png" alt="iconoCSS">
+                </div>
+                <div class="conocimiento">
+                    <h3>C#</h3>
+                    <img src="images/conocimiento03.png" alt="iconoCSharp">
+                </div>
+                <div class="conocimiento">
+                    <h3>JavaScript</h3>
+                    <img src="images/conocimiento05.png" alt="iconoJS">
+                    <p>de manera autodidacta</p>
+                </div>
             </div>
         </article>
         <article class="proyectos" id="proyectos">
@@ -64,45 +85,33 @@
                 </div>
             </div>
         </article>
-        <article class="conocimientos" id="conocimientos">
-            <h2>Conocimientos</h2>
-            <div class="contenedor-conocimientos">
-                <div class="conocimiento">
-                    <h3>Aprendiendo</h3>
-                    <img src="images/conocimiento01.png" alt="iconoHTML">
-                </div>
-                <div class="conocimiento">
-                    <h3>Aprendiendo</h3>
-                    <img src="images/conocimiento02.png" alt="iconoCSS">
-                </div>
-                <div class="conocimiento">
-                    <h3>Aprendiendo</h3>
-                    <img src="images/conocimiento03.png" alt="iconoCSharp">
-                </div>
-                <div class="conocimiento">
-                    <h3>Aprendiendo de manera autodidacta</h3>
-                    <img src="images/conocimiento05.png" alt="iconoJS">
-                </div>
-            </div>
-        </article>
+        
         <article class="contacto" id="contacto">
             <div class="contenedor-contacto">
-                <h2>Contáctame</h2>
-                <form>
-                    <label for="nombre">Nombre:</label><br>
-                    <input type="text" id="nombre" name="nombre"><br>
-                    <label for="email">Email:</label><br>
-                    <input type="email" id="email" name="email"><br>
-                    <label for="mensaje">Mensaje:</label><br>
-                    <textarea id="mensaje" name="mensaje"></textarea><br>
-                    <button type="submit">Enviar</button>
-                </form>
+                <h2>Contactame!</h2>
+                <div class="inicio">
+                    <a href="https://www.linkedin.com/in/diegoramirezhenriquez" target="_blank"><i class='linkedin bx bxl-linkedin-square bx-lg'></i></a>
+                    <a href="https://github.com/DiegoRamirezHenriquez" target="_blank"><i class='github bx bxl-github bx-lg'></i></a>
+                    <p>Correo: diegoramirezhenriquez@gmail.com</p>
+                    <p>Numero: +56 9 5369 4100</p>
+                </div>
             </div>
-            
         </article>
     </main>
-    <footer>
-        
+    <footer class="info">
+        <ul class="contenedor-info-pagina">
+            <li class="enlaces"><a href="https://www.linkedin.com/in/diegoramirezhenriquez" target="_blank"><i class='linkedin bx bxl-linkedin-square bx-sm'></i></a></li>
+            <li class="enlaces"><a href="#"></a></li>
+            <li class="enlaces"><a href="#"></a></li>
+            <li class="enlaces"><a href="#"></a></li>
+        </ul>
+        <ul class="contenedor-info">
+            <li class="enlaces"><a href="#"></a></li>
+            <li class="enlaces"><a href="#"></a></li>
+            <li class="enlaces"><a href="#"></a></li>
+            <li class="enlaces"><a href="#"></a></li>
+        </ul>
     </footer>
+    <script src="js/app.js"></script>
 </body>
 </html>

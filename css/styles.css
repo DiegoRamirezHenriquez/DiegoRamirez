@@ -4,13 +4,9 @@
     font-family: 'ABeeZee', sans-serif;
     color: #EEEEEE;
 }
-body{
-   overflow-x: hidden; 
-}
 /* INICIO */
 .contenedor-inicio{
     background-color: #393E46;
-    width: 100vw;
     height: 100vh;
     display: flex;
     justify-content: center;
@@ -19,9 +15,11 @@ body{
     
     
 }
+.contenedor-inicio h1{
+    font-size: 10rem;
+}
 i{
-    color:#eeeeee;
-    opacity: .2;
+    color:#827e7e;
 }
 .linkedin:hover{
     color: #00ADB5;
@@ -52,7 +50,8 @@ ul{
     padding-top: 1%;
     padding-bottom: 1%;
     opacity: 1;
-   align-items: center;
+    align-items: center;
+    list-style: none;
 }
 .items{
     padding-top: .125rem;
@@ -68,7 +67,6 @@ ul{
 .contenedor{
     display: flex;
     justify-content: space-evenly;
-    list-style: none;
     padding-left: 5%;
     padding-right: 5%;
 }
@@ -103,12 +101,46 @@ ul{
     padding: 2%;
 }
 
+/* CONOCIMIENTOS */
 
+.conocimientos{
+    padding-top: 2%;
+    background-color: #393E46;
+    height: 100vh;
+    text-align: center;
+    align-items: center;
+}
+.conocimientos h2{
+    padding: 5%;
+}
+.contenedor-conocimientos{
+    display: flex;
+    justify-content: space-around;
+    padding-left: 15%;
+    padding-right: 15%;
+    align-items: center;
+    flex-wrap: wrap;
+   
+}
+.conocimiento{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 12px;
+    
+}
+.conocimiento h3{
+    padding-bottom: 5%;
+    padding-top: 5%;
+}
+.conocimiento img{
+    width: 60%;
+}
 
 /* PROYECTOS */
 .proyectos{
-    background-color: #393E46;
-    width: 100vw;
+    background-color: #222831;
     height: 100vh;
     text-align: center;
     padding-top: 10%;
@@ -117,6 +149,7 @@ ul{
     display: flex;
     justify-content: space-around;
     padding: 33px 33px;
+    flex-wrap: wrap;
 }
 
 .proyectos h2{
@@ -132,53 +165,27 @@ ul{
 }
 .proyecto a img:hover{
     width: 25rem;
-    
-}
-
-
-
-/* CONOCIMIENTOS */
-
-.conocimientos{
-    padding-top: 10%;
-    background-color: #222831;
-    width: 100vw;
-    height: 100vh;
-    text-align: center;
-    align-items: center;
-}
-.conocimientos h2{
-    padding: 5%;
-}
-.contenedor-conocimientos{
-    display: flex;
-    justify-content: space-around;
-    padding-left: 15%;
-    padding-right: 15%;
-    align-items: center;
-   
-}
-.conocimiento{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    border: 1px solid rgb(255, 255, 255);
-    border-radius: 12px;
-}
-.conocimiento h3{
-    padding: 5%;
-}
-.conocimiento img{
-    width: 65%;
 }
 
 /* CONTACTO */
 .contacto{
     background-color: #393E46;
-    width: 100vw;
     height: 100vh;
-
     text-align: center;
+    display: flex;
     align-items: center;
+    padding-left: 40%;
+    padding-right: 40%;
+}
+.contenedor-contacto{
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 12px;
+}
 
+
+/* FOOTER */
+.info{
+    background-color: rgb(23, 27, 33);
+    display: flex;
+    justify-content: space-evenly;
 }
