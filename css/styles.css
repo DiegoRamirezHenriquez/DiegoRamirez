@@ -43,13 +43,11 @@ header{
 a{
     text-decoration: none;
     color: #EEEEEE;
-
 }
 
 ul{
     padding-top: 1%;
     padding-bottom: 1%;
-    opacity: 1;
     align-items: center;
     list-style: none;
 }
@@ -151,17 +149,18 @@ ul{
     padding: 33px 33px;
     flex-wrap: wrap;
 }
-
+.proyecto{
+    max-width: 25rem;
+    min-width: 25rem;
+    text-align: center;
+}
 .proyectos h2{
     padding: 2%;
-}
-.proyecto h3{
-    width: 25rem;
 }
 .proyecto a img{
     border-radius: 12px;
     width: 18.75rem;
-    transition: width .5s;
+    transition: width .7s;
 }
 .proyecto a img:hover{
     width: 25rem;
@@ -206,4 +205,14 @@ ul{
 .contenedor-enlaces{
     display: flex;
     justify-content: space-around;
+}
+
+
+
+/* ANIMAR */
+.desaparece{
+    opacity: 0;
+}
+.aparece{
+    opacity: 1;
 }
