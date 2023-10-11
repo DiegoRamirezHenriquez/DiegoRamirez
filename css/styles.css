@@ -13,8 +13,6 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    
-    
 }
 .contenedor-inicio h1{
     font-size: 10rem;
@@ -218,7 +216,31 @@ ul{
 .aparece{
     opacity: 1;
 }
+@media screen and (max-width: 767px) {
+    /* Estilos para pantallas con un ancho máximo de 767px, como smartphones en modo vertical */
+    .sobreMi{
+        padding: 15%;
+        background-color: #222831;
+        text-align: center;
+        
+    }
+    .parrafos-sobreMi p {
+        padding: 3%;
+    }
 
+  }
+  @media screen and (min-width: 768px) and (max-width: 1023px) {
+    /* Estilos para pantallas con un ancho mínimo de 768px y un ancho máximo de 1023px, como tabletas en modo vertical */
+  }
+  @media screen and (min-width: 1024px) and (max-width: 1199px) {
+    /* Estilos para pantallas con un ancho mínimo de 1024px y un ancho máximo de 1199px, como tabletas en modo horizontal */
+  }
+  @media screen and (min-width: 1200px) {
+    /* Estilos para pantallas con un ancho mínimo de 1200px, como computadoras de escritorio y portátiles */
+  }
+  @media screen and (min-width: 1600px) {
+    /* Estilos para pantallas con un ancho mínimo de 1600px, como pantallas de alta resolución o monitores grandes */
+  }
 
 @media (max-width:1400px) {
     .contenedor-sobreMi img{
