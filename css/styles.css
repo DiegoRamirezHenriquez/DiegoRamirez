@@ -242,7 +242,9 @@ ul{
         align-items: center;
         
     }
-    
+    a{
+        font-size: x-small;
+    }
     .proyecto{
         text-align: center;
         margin: 10px;
