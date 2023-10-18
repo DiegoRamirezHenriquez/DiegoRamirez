@@ -103,7 +103,7 @@ ul{
 .conocimientos{
     padding-top: 2%;
     background-color: #393E46;
-    height: 100vh;
+    /* height: 100vh; */
     text-align: center;
     align-items: center;
 }
@@ -139,7 +139,7 @@ ul{
 /* PROYECTOS */
 .proyectos{
     background-color: #222831;
-    height: 100vh;
+    /* height: 100vh; */
     text-align: center;
     padding-top: 10%;
 }
@@ -150,8 +150,8 @@ ul{
     flex-wrap: wrap;
 }
 .proyecto{
-    max-width: 25rem;
-    min-width: 25rem;
+    /* max-width: 25rem;
+    min-width: 25rem; */
     text-align: center;
 }
 .proyectos h2{
@@ -244,11 +244,11 @@ ul{
         flex-direction: column;
         flex-wrap: nowrap;
         align-items: center;
-        padding: 33px;
+        
     }
     .proyecto{
-        max-width: 25rem;
-        min-width: 25rem;
+        /* max-width: 25rem;
+        min-width: 25rem; */
         text-align: center;
         margin: 10px;
     }
@@ -264,7 +264,7 @@ ul{
     }
     .contenedor-info li{
         padding: 5%;
-        font-size: small;
+        font-size: x-small;
         font-weight: bold;
     }
 
