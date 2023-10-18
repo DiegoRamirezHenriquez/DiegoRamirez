@@ -101,7 +101,7 @@ ul{
 /* CONOCIMIENTOS */
 
 .conocimientos{
-    padding-top: 2%;
+    padding: 2%;
     background-color: #393E46;
     /* height: 100vh; */
     text-align: center;
@@ -139,19 +139,15 @@ ul{
 /* PROYECTOS */
 .proyectos{
     background-color: #222831;
-    /* height: 100vh; */
     text-align: center;
-    padding-top: 10%;
+    padding: 5%;
 }
 .contenedor-proyectos{
     display: flex;
     justify-content: space-around;
-    padding: 33px 33px;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
 }
 .proyecto{
-    /* max-width: 25rem;
-    min-width: 25rem; */
     text-align: center;
 }
 .proyectos h2{
@@ -159,11 +155,11 @@ ul{
 }
 .proyecto a img{
     border-radius: 12px;
-    width: 18.75rem;
+    width: 50%;
     transition: width .7s;
 }
 .proyecto a img:hover{
-    width: 25rem;
+    width: 60%;
 }
 
 /* CONTACTO */
@@ -246,9 +242,8 @@ ul{
         align-items: center;
         
     }
+    
     .proyecto{
-        /* max-width: 25rem;
-        min-width: 25rem; */
         text-align: center;
         margin: 10px;
     }
@@ -264,7 +259,7 @@ ul{
     }
     .contenedor-info li{
         padding: 5%;
-        font-size: x-small;
+        font-size: xx-small;
         font-weight: bold;
     }
 
