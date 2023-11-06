@@ -158,7 +158,6 @@ ul{
 .proyecto a img{
     border-radius: 12px;
     width: 100%;
-    transition: width .7s;
 }
 
 
@@ -223,10 +222,8 @@ ul{
     }
     .contenedor-proyectos{
         display: flex;
-        flex-direction: column;
-        flex-wrap: nowrap;
+        flex-wrap: wrap;
         align-items: center;
-        
     }
     a{
         font-size: x-small;
@@ -236,11 +233,9 @@ ul{
         margin: 10px;
     }
     .proyecto a img{
-        width: 60%;
+        width: 70%;
     }
-    .proyecto a img:hover{
-        width: 20rem;
-    }
+    
 
     .conocimiento img{
         width: 50%;
