@@ -55,7 +55,7 @@ ul{
     background-size: 0% 2px;
     background-image: linear-gradient(currentColor, currentColor);
     background-position: 0% 100%;
-    background-repeat: no-repeat;
+    background-repeat:no-repeat;
     transition: background-size .3s;
 }
 .items:hover{
@@ -76,6 +76,7 @@ ul{
     padding-left: 25%;
     padding-right: 25%;
     background-color: #222831;
+    min-height: 100vh;
     text-align: center;
     
 }
@@ -103,7 +104,7 @@ ul{
 .conocimientos{
     padding: 2%;
     background-color: #393E46;
-    /* height: 100vh; */
+    min-height: 100vh;
     text-align: center;
     align-items: center;
 }
@@ -113,8 +114,6 @@ ul{
 .contenedor-conocimientos{
     display: flex;
     justify-content: space-around;
-    padding-left: 15%;
-    padding-right: 15%;
     align-items: center;
     flex-wrap: wrap;
    
@@ -125,8 +124,8 @@ ul{
     align-items: center;
     border: 1px solid rgb(255, 255, 255);
     border-radius: 12px;
-    margin: 5px;
-    
+    margin: 10px;
+    padding: .625rem;
 }
 .conocimiento h3{
     padding-bottom: 5%;
@@ -141,41 +140,28 @@ ul{
     background-color: #222831;
     text-align: center;
     padding: 5%;
+    min-height: 100vh;
 }
 .contenedor-proyectos{
     display: flex;
     justify-content: space-around;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
 }
 .proyecto{
     text-align: center;
+    margin: 10px;
+    width: 425px;
 }
 .proyectos h2{
     padding: 2%;
 }
 .proyecto a img{
     border-radius: 12px;
-    width: 50%;
+    width: 100%;
     transition: width .7s;
 }
-.proyecto a img:hover{
-    width: 60%;
-}
 
-/* CONTACTO */
-/* .contacto{
-    background-color: #393E46;
-    height: 100vh;
-    text-align: center;
-    display: flex;
-    align-items: center;
-    padding-left: 40%;
-    padding-right: 40%;
-}
-.contenedor-contacto{
-    border: 1px solid rgb(255, 255, 255);
-    border-radius: 12px;
-} */
+
 
 
 /* FOOTER */
@@ -264,5 +250,4 @@ ul{
         font-size: xx-small;
         font-weight: bold;
     }
-
 }
