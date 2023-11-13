@@ -107,6 +107,8 @@ ul{
     min-height: 100vh;
     text-align: center;
     align-items: center;
+    display: flex;
+    flex-direction: column;
 }
 .conocimientos h2{
     padding: 5%;
@@ -125,7 +127,7 @@ ul{
     border: 1px solid rgb(255, 255, 255);
     border-radius: 12px;
     margin: 10px;
-    padding: .625rem;
+    padding: 3.5rem;
 }
 .conocimiento h3{
     padding-bottom: 5%;
