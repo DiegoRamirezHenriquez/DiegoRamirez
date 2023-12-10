@@ -178,6 +178,8 @@ ul{
     padding: 5%;
 }
 .contenedor-info{
+    display: flex;
+    align-items: center;
     text-align: center;
 }
 .contenedor-info li{
