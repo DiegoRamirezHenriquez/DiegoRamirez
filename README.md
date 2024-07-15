@@ -1,2 +1,2 @@
 # Diego Ramirez
-lo ire actualizando a medida que vaya haciendo mas proyectos
+lo ire actualizando y mejorando a medida que vaya haciendo mas proyectos
