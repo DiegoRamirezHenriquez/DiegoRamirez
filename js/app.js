@@ -1,7 +1,6 @@
 let contenedor=document.querySelector('.contenedor');
 let items=document.querySelectorAll('.items');
 
-
 window.onscroll= function() {
     let topPos = contenedor.offsetTop;
     for(i=0;i<items.length;i++){
